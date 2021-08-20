@@ -1,0 +1,15 @@
+Compile everything:
+gcc -Wall -Werror -Wextra *.c
+
+ex00 - print prog name
+gcc -Wall -Werror -Wextra *.c && ./a.out
+gcc -Wall -Werror -Wextra -o detective_pikachu *.c && ./detective_pikachu
+
+ex01 & ex02 - print params
+./a.out a test1 test2 test3 test4 z
+./a.out "first line" "second line"
+./a.out
+
+ex03 - sort params
+./a.out test1 a test4 z test2 d test0 test0 test3
+./a.out 9 8 7 6 5 4 8 3 2 1 9 0
